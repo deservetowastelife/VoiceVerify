@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">语音验证</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="verify">获取语音验证码</string>
+    <string name="title">语音验证码呼叫演示</string>
+    <string name="send">提交</string>
+    <string name="yanzheng">验证</string>
+
+</resources>

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff44"
+    tools:context="com.hisunsray.voiceverify.MainActivity" >
+
+    <Button
+        android:id="@+id/yanzheng"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="105dp"
+       	android:layout_marginLeft="30dp"
+       	android:layout_marginRight="30dp"
+        android:text="@string/verify" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:textSize="20sp"
+        android:text="@string/title" />
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignLeft="@+id/yanzheng"
+        android:layout_alignRight="@+id/yanzheng"
+        android:layout_below="@+id/yanzheng"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:background="#ffffff"
+            android:ems="5"
+            android:gravity="center"
+            android:layout_weight="0.6"
+            android:inputType="numberPassword"
+            android:textSize="20sp"
+             />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_weight="0.4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yanzheng" />
+
+    </LinearLayout>
+</RelativeLayout>
+
